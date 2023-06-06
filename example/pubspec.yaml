@@ -19,10 +19,10 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  firebase_core: ^2.3.0
-  firebase_messaging: ^14.1.2
-  firebase_auth: ^4.1.4
-  firebase_analytics: ^10.0.6
+  firebase_core: ^2.13.1
+  firebase_messaging: ^14.6.2
+  firebase_auth: ^4.6.2 
+  firebase_analytics: ^10.4.2
   firebase_track_conversion:
     # When depending on this package from a real application you should use:
     #   firebase_track_conversion: ^x.y.z

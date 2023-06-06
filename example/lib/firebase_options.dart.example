@@ -1,0 +1,10 @@
+import 'package:firebase_core/firebase_core.dart';
+
+class DefaultFirebaseOptions {
+  static FirebaseOptions currentPlatform = const FirebaseOptions(
+    apiKey: '',
+    appId: 'appId',
+    messagingSenderId: 'messagingSenderId',
+    projectId: 'projectId',
+  );
+}

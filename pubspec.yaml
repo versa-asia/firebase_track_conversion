@@ -4,17 +4,17 @@ version: 0.0.10
 homepage: http://google.com
 
 environment:
-  sdk: '>=2.18.4 <3.0.0'
+  sdk: '>=3.0.0 <4.0.0'
   flutter: ">=2.5.0"
 
 dependencies:
   flutter:
     sdk: flutter
   plugin_platform_interface: ^2.0.2
-  firebase_analytics_platform_interface: ^3.3.14
-  firebase_analytics_web: ^0.5.1+5
-  firebase_core: ^2.3.0
-  firebase_core_platform_interface: ^4.5.2
+  firebase_analytics_platform_interface: ^3.6.2
+  firebase_analytics_web: ^0.5.4+2
+  firebase_core: ^2.13.1 
+  firebase_core_platform_interface: ^4.8.0
 
 dev_dependencies:
   flutter_test:

@@ -1,9 +1,10 @@
+import 'package:firebase_track_conversion/src/firebase_track_conversion_method_channel.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:firebase_track_conversion/firebase_track_conversion_method_channel.dart';
 
 void main() {
-  MethodChannelFirebaseTrackConversion platform = MethodChannelFirebaseTrackConversion();
+  MethodChannelFirebaseTrackConversion platform =
+      MethodChannelFirebaseTrackConversion.instance;
   const MethodChannel channel = MethodChannel('firebase_track_conversion');
 
   TestWidgetsFlutterBinding.ensureInitialized();
