@@ -1,6 +1,6 @@
 name: firebase_track_conversion
 description: A new Flutter plugin project.
-version: 0.0.10
+version: 0.0.11
 homepage: http://google.com
 
 environment:
