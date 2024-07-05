@@ -11,15 +11,15 @@ dependencies:
   flutter:
     sdk: flutter
   plugin_platform_interface: ^2.1.8
-  firebase_analytics_platform_interface: ^3.10.1
-  firebase_analytics_web: ^0.5.7
-  firebase_core: ^2.28.0 
+  firebase_analytics_platform_interface: ^4.1.0
+  firebase_analytics_web: ^0.5.8
+  firebase_core: ^3.1.1
   firebase_core_platform_interface: ^5.0.0
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^3.0.2
+  flutter_lints: ^4.0.0
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
